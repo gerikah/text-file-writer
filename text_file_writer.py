@@ -1,8 +1,13 @@
+
+name = input("what is your name? ")
+
 def write_to_file():
     # open the file in write mode
-    with open("mylife.txt", "w") as write_to_file:
-# iterate until the user is done entering line
-    # prompt the user to enter a line of text
+    with open("mylife.txt", "w") as my_file:
+        # iterate until the user is done entering line
+        
+        # prompt the user to enter a line of text
+
     # read user input
     # write the line to the file
     # prompt the user to enter if there are more lines to enter
