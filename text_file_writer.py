@@ -1,3 +1,4 @@
+def write_to_file():
 # open the file in write mode
 # iterate until the user is done entering line
     # prompt the user to enter a line of text
