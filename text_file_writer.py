@@ -19,3 +19,5 @@ def write_to_file():
             else:
                 break
 # close the file
+    my_file.close()
+write_to_file()
