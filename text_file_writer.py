@@ -13,5 +13,9 @@ def write_to_file():
             # prompt the user to enter if there are more lines to enter
             new_line = input (f"are there more lines, {name}? y/n ")
             # if user input  is "y", continue
+            if new_line.lower() == "y":
+                continue
             # if user input is "n", break the loop
+            else:
+                break
 # close the file
